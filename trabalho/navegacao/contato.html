@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../assets/css/styles_contato.css">
+</head>
+<body class="body">
+    <!-- formulário -->
+    <h1 class="titulo"> Formulário de contato </h1>
+
+    <form class="formulario">
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <label> Nome: </label>
+            <input type="text" name="nome" required>
+
+            <label>Email:</label>
+            <input type="email" name="email">
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem:</legend>
+            <textarea name="" id="" cols="50" rows="5"></textarea>
+        </fieldset>
+
+        <fieldset>
+            <legend>Motivo do Contato</legend>
+            <label div="label">Selecione o motivo:</label>
+            <br>
+            <input type="radio"  class="selecao">
+            <label div="label">Elogio</label>
+            <br>
+            <input type="radio"  class="selecao">
+            <label div="label">Crítica</label>
+            <br>
+            <input type="radio"  class="selecao">
+            <label div="label">Sugestão</label>
+            <br>
+            <input type="radio" class="selecao">
+            <label div="label">Outro (Especificar na mensagem acima)</label>
+
+        </fieldset>
+    </form>
+    
+    <button class="enviar">
+        <a href="../navegacao/confirmacao.html">Enviar</a>
+    </button>
+
+    <footer class="rodape">
+        <p><a href="../index.html">Clique aqui para voltar página inicial</a></p>
+    </footer>
+
+</body>
+</html>

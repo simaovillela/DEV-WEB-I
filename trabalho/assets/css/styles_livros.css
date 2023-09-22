@@ -1,0 +1,61 @@
+.fundo{
+    background: linear-gradient(to bottom, #6aa96c, #1e9323);
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.img_livro {
+    width: 35vh;
+    border: 10px solid rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 10px;
+    display: block;
+    max-width: 100%; 
+    height: auto; 
+    border: 2px solid #333; 
+    margin-bottom: 20px; 
+    align-items: center;
+}
+.fundo {
+    background-color: #f2f2f2; 
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+table {
+    width: 80%; 
+    margin: 0 auto; 
+    border-collapse: collapse; 
+    background-color: #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
+}
+
+table th {
+    background-color: #868383; 
+    color: #fff; 
+    padding: 15px; 
+}
+
+table td {
+    padding: 10px; 
+}
+
+.sinopse {
+    text-align: left; 
+    padding: 20px; 
+}
+
+.link-volta {
+    text-decoration: none; 
+    color: #fff;
+    font-weight: bold; 
+}
+
+.link-volta:hover {
+    color: grey;
+    color: #001f02;  
+}
